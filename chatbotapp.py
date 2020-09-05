@@ -9,6 +9,7 @@ Created on Thu Aug 27 23:19:01 2020
 import techbots
 from flask import Flask, render_template, request, jsonify
 import nltk
+nltk.download('punkt')
 import datetime
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
